@@ -10,7 +10,7 @@ cap.set(4,480)
 model = YOLO("yolov8n.pt")
 
 classNames = model.names
-HFoV = 60
+HFoV =60
 frame_width = 640
 while True:
     success, img = cap.read()
